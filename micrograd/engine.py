@@ -94,4 +94,4 @@ class Value:
         return f"Value(data={self.data}, grad={self.grad})"
 
     def __float__(self):
-        return self.data
+        return float(self.data)
